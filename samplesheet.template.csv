@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2,strandedness
+SAMPLE_ID,/absolute/path/to/sample_1.fastq.gz,/absolute/path/to/sample_2.fastq.gz,unstranded

@@ -1,0 +1,25 @@
+# Nextflow runtime and cache
+.nextflow/
+.nextflow.log*
+nf_work/
+
+# Generated pipeline outputs
+results/
+results_*/
+null/
+
+# Local data and references
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+references/
+data/
+
+# Local logs and temporary files
+*.log
+nxf_tmp/
+
+# OS and editor files
+.DS_Store
+.vscode/
