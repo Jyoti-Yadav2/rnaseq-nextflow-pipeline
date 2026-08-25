@@ -1,0 +1,3 @@
+Sample	Reads passing filters
+SRR37730139_1	24585820.0
+SRR37730139_2	24585820.0

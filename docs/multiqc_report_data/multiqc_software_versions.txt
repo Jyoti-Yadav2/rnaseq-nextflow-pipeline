@@ -1,0 +1,17 @@
+Sample	python	bioconductor-deseq2	r-base	perl	fastqc	fq	gunzip	salmon	bioconductor-summarizedexperiment	trimgalore	bioconductor-tximeta	nf-core/rnaseq	Nextflow
+CUSTOM_GTFFILTER	3.9.5												
+CUSTOM_TX2GENE	3.10.4												
+DESEQ2_QC_PSEUDO		1.46.0	4.4.2										
+EAUTILS_GTF2BED				5.26.2									
+FASTQC					0.12.1								
+FQ_LINT						0.12.0							
+FQ_LINT_AFTER_TRIMMING						0.12.0							
+GUNZIP_GTF							1.13						
+GUNZIP_TRANSCRIPT_FASTA							1.13						
+SALMON_INDEX								1.10.3					
+SALMON_QUANT								1.10.3					
+SE_GENE_UNIFIED									1.32.0				
+SE_TRANSCRIPT_UNIFIED									1.32.0				
+TRIMGALORE										2.1.0			
+TXIMETA_TXIMPORT											1.20.1		
+Workflow												v3.26.0-g1f03b53	26.04.6

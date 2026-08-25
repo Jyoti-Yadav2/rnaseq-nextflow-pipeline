@@ -1,0 +1,8 @@
+Module	Section	Sample Name	Source
+Salmon	all_sections	SRR37730139	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/9/SRR37730139/libParams/flenDist.txt
+FastQC (raw)	all_sections	SRR37730139_1	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/3/SRR37730139_raw_1_fastqc.zip
+FastQC (raw)	all_sections	SRR37730139_2	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/4/SRR37730139_raw_2_fastqc.zip
+Cutadapt	all_sections	SRR37730139_1	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/5/SRR37730139_trimmed_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRR37730139_2	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/6/SRR37730139_trimmed_2.fastq.gz_trimming_report.txt
+FastQC (trimmed)	all_sections	SRR37730139_1	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/7/SRR37730139_trimmed_1_val_1_fastqc.zip
+FastQC (trimmed)	all_sections	SRR37730139_2	/mnt/d/rnaseq_run/nf_work/d5/599ee2f1a66b1fd5d6e04ad281a0b7/8/SRR37730139_trimmed_2_val_2_fastqc.zip
