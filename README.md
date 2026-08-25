@@ -53,6 +53,12 @@ FASTQ files were retrieved from the European Nucleotide Archive (ENA):
 
 The human GRCh38 annotation was obtained from [GENCODE human release 45](https://www.gencodegenes.org/human/release_45.html), Ensembl 111. The GTF and transcript FASTA were matched, and the FASTA headers were normalized to transcript IDs so they agree with the GTF `transcript_id` values.
 
+The normalized transcript FASTA can be recreated from the downloaded GENCODE file with:
+
+```bash
+gzip -cd gencode.v45.transcripts.fa.gz | awk '/^>/{sub(/\|.*/, "")} {print}' | gzip -c > gencode.v45.transcripts.enst.fa.gz
+```
+
 When presenting this work, retain the ENA accession, cite the original study listed on the ENA record, and credit GENCODE and the software below.
 
 ## Recommended citations
@@ -70,3 +76,7 @@ The completed MultiQC report is available online through GitHub Pages at the lin
 The report summarizes quality control for the public ENA run `SRR37730139`. Generated outputs are kept separate from the source code so the repository remains small and reproducible.
 
 Additional Salmon tables are under `results_final/salmon/`.
+
+## Before removing the analysis computer
+
+The GitHub repository preserves the workflow, configuration, sample-sheet template, provenance, citations, and browser-viewable MultiQC report. The public FASTQ data can be downloaded again from ENA using accession `SRR37730139`, and the GENCODE references can be downloaded again from release 45. If you want to preserve the complete local analysis, copy `results_final/` to external storage as well; `nf_work/` is temporary and does not need to be retained after the successful run.
