@@ -46,10 +46,13 @@ sample,fastq_1,fastq_2,strandedness
 
 ## Data provenance and credits
 
+The raw RNA-seq sequencing data used in this analysis was retrieved from the **European Nucleotide Archive (ENA)** under Project Accession **PRJNA1441242** (Secondary Study Accession: **SRP685909**).
+
 FASTQ files were retrieved from the European Nucleotide Archive (ENA):
 
 - Run accession: [SRR37730139](https://www.ebi.ac.uk/ena/browser/view/SRR37730139)
 - ENA search: [SRR37730139](https://www.ebi.ac.uk/ena/browser/search?query=SRR37730139)
+- ENA record entry: [PRJNA1441242 Browser View](https://ebi.ac.uk)
 
 The human GRCh38 annotation was obtained from [GENCODE human release 45](https://www.gencodegenes.org/human/release_45.html), Ensembl 111. The GTF and transcript FASTA were matched, and the FASTA headers were normalized to transcript IDs so they agree with the GTF `transcript_id` values.
 
@@ -63,6 +66,8 @@ When presenting this work, retain the ENA accession, cite the original study lis
 
 ## Recommended citations
 
+- **Primary Data Source:** 
+  Depommier, C., de Vos, W. M., Cani, P. D., et al. "Pasteurized *Akkermansia muciniphila* MucT for weight loss maintenance in people with overweight or obesity: a randomized controlled trial." *Project BioProject Record: PRJNA1441242*.
 - nf-core/rnaseq: Ewels et al., *Nature Biotechnology* (2020), [doi:10.1038/s41587-020-0439-x](https://doi.org/10.1038/s41587-020-0439-x)
 - nf-core/rnaseq release: [Zenodo record](https://doi.org/10.5281/zenodo.1400710)
 - GENCODE: Frankish et al., *Nucleic Acids Research* (2023), [doi:10.1093/nar/gkac1071](https://doi.org/10.1093/nar/gkac1071)
